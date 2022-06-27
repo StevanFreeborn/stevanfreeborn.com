@@ -1,0 +1,19 @@
+/* Bootstrap Overrides */
+
+/* Site Specific */
+html,
+body {
+    height: 100%;
+}
+
+.main-content {
+
+    max-width: 525px;
+
+}
+
+.social-icon {
+
+    font-size: 2rem;
+
+}
