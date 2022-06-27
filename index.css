@@ -1,0 +1,48 @@
+/* Bootstrap Overrides */
+
+.navbar-light .navbar-toggler {
+    color: black;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active:focus {
+
+    box-shadow: none;
+
+}
+
+.dropdown-item:active {
+    color: #1e2125;
+    background-color: #e9ecef;
+}
+
+/* Site Specific */
+html,
+body {
+    height: 100%;
+}
+
+.main-content {
+
+    max-width: 525px;
+
+}
+
+.social-icon {
+
+    font-size: 2rem;
+
+}
+
+.cta-button,
+.cta-button:hover,
+.cta-button:focus {
+    color: #fff;
+    background-color: #db3e3e;
+    border-color: #db3e3e;
+    box-shadow: none;
+}
